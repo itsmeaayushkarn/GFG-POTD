@@ -16,3 +16,8 @@ elif operator=='/':
 
 else:
       print("invalid operator")
+
+
+
+
+      # Build a simple calculator in Python
