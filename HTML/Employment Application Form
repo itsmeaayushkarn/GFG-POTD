@@ -1,0 +1,85 @@
+<!--This is the EMPLOYMENT APPLICATION FORM made in HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table and File</title>
+</head>
+<body>
+    
+    <form> 
+        <table border="1">
+        
+                <h1>Employment Application Form</h1>
+
+            <tr>
+                 <td>First Name</td>
+                 <td><input type="first name"</td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="last name"</td>
+                
+            </tr>
+                <td>Position</td>
+                <td>
+                    <select name="Position">
+<option value="AC">Accountant</option>
+                        <option value="RE">Receptionist</option>
+                        <option value="AD">Administrator</option>
+                        <option value="SU">Supervisor</option>
+                        </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Experience Level</td>
+                <td>
+                    <select name="Experience Level">
+                        <option value="EL">Entry Level</option>
+                        <option value="SE">Some Experience</option>
+                        <option value="VE">Very Experience</option>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Job Type</td>
+                <td>
+                    <input type="checkbox"/>Full-Time
+                    <input type="checkbox"/>Part-Time
+                    <input type="checkbox"/>Intern
+                </td>
+            </tr>
+
+            <tr>
+                <td>Employment Status</td>
+                <td>
+                    <input type="radio" name="estatus"/>Employed
+                    <input type="radio" name="estatus"/>Unemployed
+                    <input type="radio" name="estatus"/>Student
+                </td>
+            </tr>
+
+            <tr>
+                <td>Additional Comments</td>
+                <td>
+                    <Textarea name="Additional Comments" cols="35" rows="5"></Textarea>
+ </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="Submit"/>
+                    <input type="reset"/>
+                </td>
+
+            </tr>
+            </table>
+        
+        </form>  
+        
+</body>
+</html>
