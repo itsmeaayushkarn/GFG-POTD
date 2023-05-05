@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <title>Nested List</title>
+  </head>
+  
+  <body>
+    
+    <ol type="1">
+      <li>India</li>
+      
+      <ol type="A">
+      <li>Maharashtra
+        
+       <ol type="I">
+         <li>Mumbai
+           <li>Nashik
+             <li>Pune</ol>
+        </li>
+        
+        <li>Karnataka
+          <ol type="I">
+         <li>Bangalore
+           <li>Mysore
+             <li>Mangalore</li>
+          </ol>
+      </ol>
+      
+       <li>USA</li>
+      
+      <ol type="A">
+      <li>Florida
+        
+       <ol type="I">
+         <li>Miami
+           <li>Orlando
+             <li>Hollywood</li>
+        </ol>
+        
+        <li>New York
+          <ol type="I">
+         <li>Yorktown
+           <li>Garden City
+             <li>East Hills</li>
+          </ol>
+          
+      </ol>
+      
+      </body>
+    </html>
